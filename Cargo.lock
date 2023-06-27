@@ -68,6 +68,9 @@ name = "fasttype"
 version = "0.1.0"
 dependencies = [
  "diacritics",
+ "js-sys",
+ "wasm-bindgen",
+ "web-sys",
  "yew",
 ]
 

@@ -10,7 +10,9 @@ pub fn return_answers(path: &str) -> (Vec<String>, usize)
         .split("\n").map(|x| x.to_owned())
         .collect::<Vec<String>>();
 
-    let longest: [u8; 8] = lines.pop()
+    println!("loaded file");
+
+    let longest: [u8; 4] = lines.pop()
         .expect("Empty file")
         .as_bytes().try_into()
         .unwrap();
