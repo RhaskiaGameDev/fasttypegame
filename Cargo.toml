@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 diacritics = "0.2.0"
+yew = { version = "0.20.0", features = ["csr"] }
