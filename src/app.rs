@@ -18,6 +18,8 @@ impl App {
     fn redout_top_row_text(&self) -> String {
         println!("wuh");
         let path = "worldcities.csv";
+        //let lines = std::fs::read_to_string(path)
+        //    .expect("Should have been able to read the file");
         //let answers = return_answers(path);
         //let l = in_answers(&self.password, &answers.0);
 

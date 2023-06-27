@@ -1,7 +1,7 @@
 use std::fs;
 use std::io::Write;
 
-pub fn return_answers(path: &str) -> (Vec<String>, usize)
+pub fn return_answers(path: &str) -> (Vec<String>, u8)
 {
     let new_path = "data/".to_owned() + path;
 
@@ -12,12 +12,10 @@ pub fn return_answers(path: &str) -> (Vec<String>, usize)
 
     println!("loaded file");
 
-    let longest: [u8; 4] = lines.pop()
-        .expect("Empty file")
-        .as_bytes().try_into()
-        .unwrap();
+    let longest = lines.pop()
+        .expect("Empty file").chars().last().unwrap();
 
-    (lines, usize::from_be_bytes(longest))
+    (lines, longest as u8)
 }
 
 pub fn clean_file(path: &str, row: usize) -> Result<(), std::io::Error>
