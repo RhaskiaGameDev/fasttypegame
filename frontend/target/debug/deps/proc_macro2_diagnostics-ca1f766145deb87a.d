@@ -1,0 +1,10 @@
+D:\rust ;3\fasttype\target\debug\deps\proc_macro2_diagnostics-ca1f766145deb87a.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\ext.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\line.rs
+
+D:\rust ;3\fasttype\target\debug\deps\libproc_macro2_diagnostics-ca1f766145deb87a.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\ext.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\line.rs
+
+D:\rust ;3\fasttype\target\debug\deps\proc_macro2_diagnostics-ca1f766145deb87a.d: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\ext.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\line.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\ext.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\proc-macro2-diagnostics-0.10.0\src\line.rs:

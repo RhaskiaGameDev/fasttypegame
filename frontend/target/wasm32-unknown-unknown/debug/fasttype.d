@@ -1,0 +1,1 @@
+D:\rust\ ;3\fasttype\frontend\target\wasm32-unknown-unknown\debug\fasttype.wasm: D:\rust\ ;3\fasttype\frontend\src\app.rs D:\rust\ ;3\fasttype\frontend\src\csv\loader.rs D:\rust\ ;3\fasttype\frontend\src\csv\worldcities.csv D:\rust\ ;3\fasttype\frontend\src\csv.rs D:\rust\ ;3\fasttype\frontend\src\main.rs D:\rust\ ;3\fasttype\frontend\src\text_input.rs

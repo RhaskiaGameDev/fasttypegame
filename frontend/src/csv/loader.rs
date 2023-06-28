@@ -1,0 +1,1 @@
+pub(crate) static WORLDCITIES: &str = include_str!("worldcities.csv");

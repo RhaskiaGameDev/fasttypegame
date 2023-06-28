@@ -1,0 +1,12 @@
+D:\rust ;3\fasttype\target\debug\deps\notify-6b1eaef739975ca6.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\windows.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\null.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\poll.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\mod.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\timer.rs
+
+D:\rust ;3\fasttype\target\debug\deps\libnotify-6b1eaef739975ca6.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\windows.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\null.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\poll.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\mod.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\timer.rs
+
+D:\rust ;3\fasttype\target\debug\deps\notify-6b1eaef739975ca6.d: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\windows.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\null.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\poll.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\mod.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\timer.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\windows.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\null.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\poll.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\mod.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\notify-4.0.17\src\debounce\timer.rs:

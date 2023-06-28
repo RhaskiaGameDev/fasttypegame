@@ -1,0 +1,1 @@
+D:\rust\ ;3\fasttype\target\debug\fasttype.exe: D:\rust\ ;3\fasttype\src\app.rs D:\rust\ ;3\fasttype\src\csv\loader.rs D:\rust\ ;3\fasttype\src\csv\worldcities.csv D:\rust\ ;3\fasttype\src\csv.rs D:\rust\ ;3\fasttype\src\main.rs D:\rust\ ;3\fasttype\src\text_input.rs

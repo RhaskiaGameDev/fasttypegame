@@ -1,0 +1,12 @@
+D:\rust ;3\fasttype\target\debug\deps\state-3b5f5f1b41b657d8.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\ident_hash.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\storage.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\init.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\shim.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\container.rs
+
+D:\rust ;3\fasttype\target\debug\deps\libstate-3b5f5f1b41b657d8.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\ident_hash.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\storage.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\init.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\shim.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\container.rs
+
+D:\rust ;3\fasttype\target\debug\deps\state-3b5f5f1b41b657d8.d: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\ident_hash.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\storage.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\init.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\shim.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\container.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\ident_hash.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\storage.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\init.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\shim.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.5.3\src\container.rs:
