@@ -13,24 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="272e846b-249b-4c01-ae20-3ae3c5b48c98" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/frontend/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/csv/loader.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/csv/worldcities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/worldcities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/worldcities.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fasttype-49fb6cb29da117d8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fasttype-49fb6cb29da117d8_bg.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.rs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkanswer.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csv.rs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/csv.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text_input.rs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/text_input.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldcities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/fasttype-fbd08b368ae40993.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/fasttype-fbd08b368ae40993_bg.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dist/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +122,7 @@
       <workItem from="1687656123441" duration="8998000" />
       <workItem from="1687918411123" duration="6349000" />
       <workItem from="1687928632679" duration="143000" />
-      <workItem from="1687928794523" duration="4264000" />
+      <workItem from="1687928794523" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687556189828</created>
