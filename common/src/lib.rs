@@ -17,8 +17,8 @@ pub fn check_answers<'a>(answer: &str, answers: &'a Vec<String>, longest: u8) ->
 
     for a in answers
     {
-        if answer == a
-        { 
+        if answer.contains(&a[..a.len()-1])
+        {
             return match a.len() == longest.into()
             {
                 true => Answer::Some(a),

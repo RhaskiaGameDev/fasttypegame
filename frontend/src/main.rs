@@ -3,7 +3,6 @@
 mod text_input;
 
 mod app;
-mod csv;
 use crate::app::*;
 
 use yew::prelude::*;

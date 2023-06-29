@@ -1,7 +1,6 @@
 
 use yew::prelude::*;
 
-use crate::csv::*;
 use crate::text_input::TextInput;
 
 pub enum Msg {
