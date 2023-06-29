@@ -112,9 +112,13 @@ mod tests {
     #[test]
     fn check_answer_simple() {
         unsafe {
+            current_selection = Some(return_answers("./src/csv/worldcities.csv"));
+
+            println!("{:?}", current_selection);
+
         let Some((ref answers, longest)) = current_selection else { panic!("broken"); };
 
-        assert_eq!(check_answers("kuwaitcity", &answers, longest), Answer::Some("kuwaitcity".to_string()));
+        assert_eq!(check_answers("kuwaitcity", &answers, longest), Answer::Some(&"kuwaitcity".to_string()));
         }
     }
 }
