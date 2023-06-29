@@ -17,12 +17,13 @@ pub fn check_answers<'a>(answer: &str, answers: &'a Vec<String>, longest: u8) ->
 
     for a in answers
     {
-        if answer.contains(&a[..a.len()-1])
+        if answer.contains(a)
         {
+            println!("{}", longest);
             return match a.len() == longest.into()
             {
-                true => Answer::Some(a),
-                false => Answer::Longest(a),
+                false => Answer::Some(a),
+                true => Answer::Longest(a),
             }
         }
     }
@@ -30,19 +31,24 @@ pub fn check_answers<'a>(answer: &str, answers: &'a Vec<String>, longest: u8) ->
     Answer::Empty
 }
 
-pub fn return_answers(path: &str) -> (Vec<String>, u8)
+pub fn set_cache(path: &str) -> (Vec<String>, u8)
 {
     let mut lines = fs::read_to_string(path)
         .expect("Should have been able to read the file")
-        .split("\n").map(|x| x.to_owned())
+        .split("\n").map(|x| x[..x.len()].to_owned())
         .collect::<Vec<String>>();
 
     println!("loaded file");
 
     let longest = lines.pop()
-        .expect("Empty file").chars().last().unwrap();
+        .expect("Empty file").chars().nth(0).unwrap();
 
-    (lines, longest as u8)
+    (lines, longest as u8 - 32)
+}
+
+pub fn load_cached() -> Option<(Vec<String>, u8)>
+{
+   unsafe { current_selection.clone() } 
 }
 
 pub fn clean_file(path: &str, row: usize) -> Result<(), std::io::Error>
@@ -71,7 +77,7 @@ pub fn clean_file(path: &str, row: usize) -> Result<(), std::io::Error>
         }
     }
 
-    file.write(&longest.to_be_bytes())?;
+    file.write(&[longest as u8 + 32, 32])?;
 
     Ok(())
 }
@@ -80,8 +86,10 @@ fn clean_str(s: &str) -> String
 {
     diacritics::remove_diacritics(
         &s.to_string()
-            .replace(&[' ', '\'', ',', '‘', '’', '-', '(', ')'][..], "")
-            .to_ascii_lowercase())
+        .to_ascii_lowercase())
+        .chars()
+        .filter(|x| x.is_numeric() || x.is_alphabetic())
+        .collect()
 }
 
 use std::env;
@@ -100,25 +108,66 @@ mod tests {
 
     #[test]
     fn load_file() {
-        let paths = fs::read_dir("./src/csv").unwrap();
-
-        for path in paths {
-            println!("Name: {}", path.unwrap().path().display())
-        }
         unsafe {
-        current_selection = Some(return_answers("./src/csv/worldcities.csv")); }
+        current_selection = Some(set_cache("./src/csv/worldcities.csv")); 
+        println!("{:?}", current_selection); }
     }
 
     #[test]
-    fn check_answer_simple() {
+    fn correct_answer() {
         unsafe {
-            current_selection = Some(return_answers("./src/csv/worldcities.csv"));
-
-            println!("{:?}", current_selection);
-
-        let Some((ref answers, longest)) = current_selection else { panic!("broken"); };
-
-        assert_eq!(check_answers("kuwaitcity", &answers, longest), Answer::Some(&"kuwaitcity".to_string()));
+            current_selection = Some(set_cache("./src/csv/worldcities.csv"));
         }
+
+        let selection_cache = load_cached();
+        let Some((answers, longest)) = selection_cache else { panic!("broken"); };
+
+        assert_eq!(check_answers("kuwaitcity", &answers, longest), 
+                    Answer::Some(&"kuwaitcity".to_string()));
+    }
+
+    #[test]
+    fn longest() {
+        unsafe {
+            current_selection = Some(set_cache("./src/csv/worldcities.csv"));
+        }
+
+        let selection_cache = load_cached();
+        let Some((answers, longest)) = selection_cache else { panic!("broken"); };
+
+        assert_eq!(check_answers("newyorkcity", &answers, longest), 
+                    Answer::Longest(&"newyorkcity".to_string()));
+    }
+
+    #[test]
+    fn incorrect_answer() {
+        unsafe {current_selection = Some(set_cache("./src/csv/worldcities.csv"));}
+
+        let selection_cache = load_cached();
+        let Some((answers, longest)) = selection_cache else { panic!("broken"); };
+
+        assert_eq!(check_answers("bucket", &answers, longest), Answer::Empty);
+    }
+
+    #[test]
+    pub fn extra_chars() {
+        unsafe {current_selection = Some(set_cache("./src/csv/worldcities.csv"));}
+
+        let selection_cache = load_cached();
+        let Some((answers, longest)) = selection_cache else { panic!("broken"); };
+
+        assert_eq!(check_answers("KU%w**ai--t'ci(ty", &answers, longest), 
+                    Answer::Some(&"kuwaitcity".to_string()));
+    }
+
+    #[test]
+    pub fn sub_answer() {
+        unsafe {current_selection = Some(set_cache("./src/csv/worldcities.csv"));}
+
+        let selection_cache = load_cached();
+        let Some((answers, longest)) = selection_cache else { panic!("broken"); };
+
+        assert_eq!(check_answers("0000kuwaitcity555", &answers, longest), 
+                    Answer::Some(&"kuwaitcity".to_string()));
     }
 }

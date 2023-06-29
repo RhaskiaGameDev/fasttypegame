@@ -15,8 +15,8 @@ pub struct App {
 
 impl App {
     fn redout_top_row_text(&self) -> String {
-        let answers = return_answers(   );
-        println!("{:?}", answers);
+        //let answers = return_answers(   );
+        //println!("{:?}", answers);
         //let l = in_answers(&self.password, &answers.0);
 
         //if let Some(answer) = l
