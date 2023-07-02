@@ -8,6 +8,16 @@ edition = "2021"
 [dependencies]
 diacritics = "0.2.0"
 js-sys = "0.3.64"
+jsonrpc-core-client = "18.0.0"
 wasm-bindgen = "0.2.87"
 web-sys = "0.3.64"
 yew = { version = "0.20.0", features = ["csr"] }
+common = { path = "../common" }
+jsonrpc-derive = "18.0.0"
+jsonrpc-core = "18.0.0"
+console_error_panic_hook = "0.1.7"
+gloo-net = "0.3.0"
+log = "0.4.19"
+wasm-bindgen-futures = "0.4.37"
+wasm-logger = "0.2.0"
+yew-router = "0.17.0"

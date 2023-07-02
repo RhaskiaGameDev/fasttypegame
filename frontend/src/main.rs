@@ -1,13 +1,29 @@
-#![recursion_limit = "256"]
+use leptos::*;
 
-mod text_input;
+#[component]
+pub fn SimpleCounter(cx: Scope, initial_value: i32) -> impl IntoView {
+    // create a reactive signal with the initial value
+    let (value, set_value) = create_signal(cx, initial_value);
 
-mod app;
-use crate::app::*;
+    // create event handlers for our buttons
+    // note that `value` and `set_value` are `Copy`, so it's super easy to move them into closures
+    let clear = move |_| set_value(0);
+    let decrement = move |_| set_value.update(|value| *value -= 1);
+    let increment = move |_| set_value.update(|value| *value += 1);
 
-use yew::prelude::*;
-
-fn main() {
-    println!("{:?}", csv::loader::WORLDCITIES);
-    yew::Renderer::<App>::new().render();
+    // create user interfaces with the declarative `view!` macro
+    view! { cx,
+        <div>
+            <button on:click=clear>"Clear"</button>
+            <button on:click=decrement>"-1"</button>
+            <span>"Value: " {value} "!"</span>
+            <button on:click=increment>"+1"</button>
+        </div>
+    }
 }
+
+// Easy to use with Trunk (trunkrs.dev) or with a simple wasm-bindgen setup
+pub fn main() {
+    mount_to_body(|cx| view! { cx,  <SimpleCounter initial_value=3 /> })
+}
+//https://github.com/leptos-rs/leptos/blob/main/examples/fetch/src/lib.rs
