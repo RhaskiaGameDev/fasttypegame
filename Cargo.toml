@@ -1,11 +1,5 @@
 [workspace]
 members = [
-    "backend",
     "common",
-    "frontend",
+    "web",
 ]
-
-[workspace.metadata.leptos]
-name = "leptos-project"
-bin-package = "backend"
-lib-package = "frontend"
