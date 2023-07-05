@@ -9,6 +9,7 @@ log = "0.4"
 console_log = "1"
 console_error_panic_hook = "0.1.7"
 questions = {path = "./questions"}
+serde = "1.0.166"
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.0"

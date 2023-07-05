@@ -1,0 +1,12 @@
+D:\rust;3\fasttype\questions\target\debug\deps\anstyle-7de193194dce64a4.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\macros.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\color.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\effect.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\reset.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\style.rs
+
+D:\rust;3\fasttype\questions\target\debug\deps\libanstyle-7de193194dce64a4.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\macros.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\color.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\effect.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\reset.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\style.rs
+
+D:\rust;3\fasttype\questions\target\debug\deps\anstyle-7de193194dce64a4.d: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\macros.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\color.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\effect.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\reset.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\style.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\macros.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\color.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\effect.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\reset.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-1.0.1\src\style.rs:

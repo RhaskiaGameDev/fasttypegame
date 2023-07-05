@@ -1,0 +1,11 @@
+D:\rust;3\fasttype\questions\target\debug\deps\anstyle_wincon-3060b6cedff429bc.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\console.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lockable.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\stream.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\windows.rs
+
+D:\rust;3\fasttype\questions\target\debug\deps\libanstyle_wincon-3060b6cedff429bc.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\console.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lockable.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\stream.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\windows.rs
+
+D:\rust;3\fasttype\questions\target\debug\deps\anstyle_wincon-3060b6cedff429bc.d: C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\console.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lockable.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\stream.rs C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\windows.rs
+
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lib.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\console.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\lockable.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\stream.rs:
+C:\Users\user\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-wincon-1.0.1\src\windows.rs:

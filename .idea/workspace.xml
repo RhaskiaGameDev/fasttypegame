@@ -13,19 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="272e846b-249b-4c01-ae20-3ae3c5b48c98" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fasttype.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fasttype.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/countries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/world-cities.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/src/csv/worldcities.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/worldcities.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/counters-b421c37bfe956500.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/counters-b421c37bfe956500_bg.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/questions/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/questions/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/worldcities.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Rust File" />
         <option value="HTML File" />
+        <option value="Rust File" />
       </list>
     </option>
   </component>
@@ -89,11 +89,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rust;3\fasttype\questions\src\csv" />
+      <recent name="D:\rust;3\fasttype\questions" />
+      <recent name="D:\rust;3\fasttype\questions\src" />
       <recent name="D:\rust;3\fasttype\src" />
       <recent name="D:\rust;3\fasttype" />
-      <recent name="D:\rust" />
-      <recent name="D:\rust ;3\fasttype\frontend" />
-      <recent name="D:\rust ;3\fasttype\old" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,6 +138,7 @@
       <workItem from="1688341438658" duration="169000" />
       <workItem from="1688352922128" duration="698000" />
       <workItem from="1688359432239" duration="8360000" />
+      <workItem from="1688502101582" duration="12482000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687556189828</created>

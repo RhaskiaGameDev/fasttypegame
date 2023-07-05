@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 diacritics = "0.2.0"
+serde = {version = "1.0.166", features = ["derive"]}
