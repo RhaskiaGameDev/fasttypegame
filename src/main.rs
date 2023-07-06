@@ -1,12 +1,10 @@
 use leptos::*;
 use questions::*;
 
-// #[server(CheckAnswer, "/api")]
-// pub async fn check_answer(input: String) -> Result<String, ServerFnError> {
-//     let (answers, longest) = questions::load("worldcities.csv");
-//
-//     Ok(String::from("moose"))
-// }
+#[server(CheckAnswer, "/api")]
+pub async fn send_answer(input: String, id: i32) -> Result<String, ServerFnError> {
+
+}
 
 async fn server_check_answer(value: String) -> String {
     let (answers, longest) = load();
@@ -28,7 +26,7 @@ fn App(cx: Scope) -> impl IntoView {
     let async_result = move || {
         async_data
             .read(cx)
-            .map(|value| format!("Server returned {value:?}"))
+            .map(|value| format!("{value}"))
             .unwrap_or_else(|| "Loading...".into())
     };
 
@@ -42,13 +40,8 @@ fn App(cx: Scope) -> impl IntoView {
             set_name(event_target_value(&ev));
         }/>
         <p>
-            <code>"count"</code>": " {name}
-        </p>
-        <p>
-            <code>"async_value"</code>": "
             {async_result}
-            <br/>
-            {is_loading}
+            //{is_loading}
         </p>
     }
 }
