@@ -13,12 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="272e846b-249b-4c01-ae20-3ae3c5b48c98" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/runner.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/counters-a4deffdbc3c46b36.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/counters-a4deffdbc3c46b36_bg.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Rust File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +51,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Rcj2XAODvxE0PF4MibAll3l4Ab" />
   <component name="ProjectLevelVcsManager">
@@ -64,7 +72,8 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/rust;3/fasttype&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/rust/start-axum&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,17 +85,18 @@
     &quot;org.rust.disableDetachedFileInspectionD:/rust ;3/fasttype/src/lib.rs&quot;: &quot;true&quot;,
     &quot;org.rust.hideNoCargoProjectNotificationsD:/rust ;3/fasttype/backend/Cargo.toml&quot;: &quot;true&quot;,
     &quot;org.rust.hideNoCargoProjectNotificationsD:/rust ;3/fasttype/common/Cargo.toml&quot;: &quot;true&quot;,
+    &quot;org.rust.hideNoCargoProjectNotificationsD:/rust/fasttype/server/src/main.rs&quot;: &quot;true&quot;,
     &quot;org.rust.hideNoCargoProjectNotificationsD:/rust;3/fasttype/frontend/Cargo.toml&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rust\fasttype\server\static" />
+      <recent name="D:\rust\fasttype\server\public" />
+      <recent name="D:\rust\fasttype\server" />
       <recent name="D:\rust;3\fasttype\questions\src\csv" />
       <recent name="D:\rust;3\fasttype\questions" />
-      <recent name="D:\rust;3\fasttype\questions\src" />
-      <recent name="D:\rust;3\fasttype\src" />
-      <recent name="D:\rust;3\fasttype" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,6 +147,13 @@
       <workItem from="1688591412907" duration="7000" />
       <workItem from="1688596858097" duration="7000" />
       <workItem from="1688596889164" duration="5000" />
+      <workItem from="1694204281616" duration="7759000" />
+      <workItem from="1694238267931" duration="3578000" />
+      <workItem from="1694287201789" duration="4805000" />
+      <workItem from="1694300075586" duration="3089000" />
+      <workItem from="1694412525265" duration="367000" />
+      <workItem from="1694471519163" duration="684000" />
+      <workItem from="1694478395342" duration="7582000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1687556189828</created>
